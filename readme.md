@@ -17,7 +17,7 @@ The following are the allowed HTML elements and their allowed attributes.
 
 ## FAQs
 
-### Why does the HTML disappears with some WP widgets?
+### Why does the HTML disappear with some WP widgets?
 
 Core WordPress has 4 widgets that strip all HTML tags before outputting in the title field in the form.  I've created a ticket to address this: https://core.trac.wordpress.org/ticket/33235
 
@@ -30,7 +30,7 @@ The 4 widgets are:
 
 HTML will save fine and be output on the front end.  However, until that can be addressed in core, you'll need to re-add the HTML any time you save the widget.
 
-### Why doesn't this plugin doesn't work with X widget?
+### Why doesn't this plugin work with X widget?
 
 There's several reasons it might not work.
 
