@@ -6,14 +6,15 @@ Allows a limited set of inline HTML in widget titles.
 
 The following are the allowed HTML elements and their allowed attributes.
 
-* `<a href="" title="">`
-* `<abbr title="">`
-* `<acronym title="">`
-* `<code>`
-* `<em>`
-* `<strong>`
-* `<i>`
-* `<b>`
+* `<a href="" title="" class="">`
+* `<abbr title="" class="">`
+* `<acronym title="" class="">`
+* `<code class="">`
+* `<em class="">`
+* `<strong class="">`
+* `<i class="">`
+* `<b class="">`
+* `<span class="">`
 
 ## FAQs
 

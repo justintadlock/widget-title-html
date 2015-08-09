@@ -41,14 +41,14 @@ add_filter( 'widget_update_callback', 'wt_html_widget_update_callback', 95, 2 );
 function wt_html_allowed() {
 
 	$allowed = array(
-		'a'       => array( 'title' => true, 'href' => true ),
-		'abbr'    => array( 'title' => true ),
-		'acronym' => array( 'title' => true ),
-		'code'    => true,
-		'em'      => true,
-		'strong'  => true,
-		'i'       => true,
-		'b'       => true,
+		'a'       => array( 'class' => true, 'title' => true, 'href' => true ),
+		'abbr'    => array( 'class' => true, 'title' => true ),
+		'acronym' => array( 'class' => true, 'title' => true ),
+		'code'    => array( 'class' => true ),
+		'em'      => array( 'class' => true ),
+		'strong'  => array( 'class' => true ),
+		'i'       => array( 'class' => true ),
+		'b'       => array( 'class' => true ),
 		'span'    => array( 'class' => true )
 	);
 
