@@ -49,6 +49,7 @@ function wt_html_allowed() {
 		'strong'  => true,
 		'i'       => true,
 		'b'       => true,
+		'span'    => array( 'class' => true )
 	);
 
 	return apply_filters( 'wt_html_allowed', $allowed );
